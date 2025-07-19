@@ -18,14 +18,21 @@ The rain sensor detects the presence of rain by sensing water droplets. When rai
 | **Baseboard (Black Platform)** | A sturdy surface to mount the house and components.                       |
 
 # Project Showcase
-| Image                                                                                                                                                 | Description               |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| ![IMG_1896](https://github.com/user-attachments/assets/acb04815-c15a-4ef5-b143-f7d6ee226407                                                           | **🔌 Circuit Connection** |
-| Displays how the rain sensor, servo motor, and Arduino are connected on the project baseboard.                                                        |                           |
-| ![IMG_1894](https://github.com/user-attachments/assets/b321ab4a-3df9-478c-9296-e46bf297dbfe)                                                          | **🌤️ No Rain Condition** |
-| The clothesline remains outside. No rain is detected, and the servo motor holds its initial position.                                                 |                           |
-| ![Uploading IMG_1895.jpeg…]()                                                                                                                         | **🌧️ Rain Condition**    |
-| Rain is detected by the sensor, triggering the servo motor to pull the clothesline inside the coverd area to protect the clothes.                     |                           |
+
+Circuit Connection
+The image below shows the full hardware setup. It includes the Arduino Uno, rain sensor, servo motor, and the power supply all mounted on a black baseboard.
+
+![IMG_1896](https://github.com/user-attachments/assets/bb8300f3-62cc-4974-aba3-03f36dce9e0d)
+
+No Rain Condition
+This is the default state. When there is no rain detected, the clothesline remains outside the coverd area, and the servo motor holds its initial angle.
+
+![IMG_1894](https://github.com/user-attachments/assets/e575addb-0d60-4155-8393-72c4a1b41d68)
+
+Rain Condition
+When rain is detected by the sensor, the Arduino activates the servo motor to pull the clothesline inside the coverd area, protecting the clothes from getting wet.
+
+![IMG_1895](https://github.com/user-attachments/assets/fc0f7e98-4518-4156-aaf4-abccea094ca9)
 
 
 # Future Improvements
